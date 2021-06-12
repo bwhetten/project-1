@@ -9,11 +9,8 @@ Access Policies
 
 ELK Configuration
 
-Beats in Use
-Machines Being Monitored
-How to Use the Ansible Build
 
-Description of the Topology
+  Description of the Topology
 
 The load balancer aids in security by offloading traffic from a corporate server to a public cloud provider. Integrating an ELK (Elasticsearch, Logstash, and Kibana) server allows users to easily monitor the vulnerable VMs for changes to the file names and watch system metrics.
 Filebeat monitors the logs in the specified locations. It detects changes to the filesystem. It collects logs and forwards them to Elastisearch or Logstash for indexing
